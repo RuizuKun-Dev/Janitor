@@ -1,4 +1,4 @@
 {
-	"name": "Janitor",
+	"name": "janitor",
 	"tree": {"$path": "src"}
 }
