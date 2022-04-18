@@ -1,10 +1,10 @@
 [package]
-name = "howmanysmall/janitor"
-description = "A garbage collector object implementation for Roblox, featuring support for custom cleanup methods, Promises, and instance linking."
-license = "MIT"
-realm = "shared"
-registry = "https://github.com/UpliftGames/wally-index"
+name = "ruizukun-dev/janitor"
 version = "1.14.1"
+license = "Apache2"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
 exclude = [
 	"docs", ".moonwave", "test",
 	"Janitor.rbxm", "Janitor.rbxmx", "BuildJanitor.lua",

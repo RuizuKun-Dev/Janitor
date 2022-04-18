@@ -1,1 +1,4 @@
-std = "Luau+testez"
+std = "roblox+testez"
+
+[rules]
+parenthese_conditions = "allow"
