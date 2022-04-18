@@ -1,3 +1,4 @@
+-- #selene: allow(incorrect_standard_library_use)
 local ffi = require("ffi")
 
 ffi.cdef("\r\n\tint printf(const char * Format, ...);\r\n")
