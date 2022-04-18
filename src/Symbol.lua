@@ -1,12 +1,12 @@
 local function Symbol(Name)
-    local self = newproxy(true)
-    local Metatable = getmetatable(self)
+	local self = newproxy(true)
+	local Metatable = getmetatable(self)
 
-    function Metatable.__tostring()
-        return Name
-    end
+	function Metatable.__tostring()
+		return Name
+	end
 
-    return self
+	return self
 end
 
 return Symbol
